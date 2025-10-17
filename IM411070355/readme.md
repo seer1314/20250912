@@ -5,6 +5,8 @@ ctrl + S
 try to use GUI interface
 this sentence will be show at github
 
+download python git db browser
+
 #Install
 . Git
 . DB Browser for SQLite
@@ -13,7 +15,7 @@ this sentence will be show at github
 - in terminal
 . git --version
 . git config --global user.name 'Aaron name'
-. git config --global user.email 'email'
+. git config --global user.email 'a@gmail.com'
 . git init
 
 #Linux command
@@ -43,3 +45,9 @@ git commit -m 'message'
 . git reset --hard [version.number]
 . git diff [version.number] -- [filename]
 . git checkout [version.number] -- [filename]
+
+#github
+- create a new repository
+- git remote add origin something_from_github.git
+- git branch -M main
+- git push -u origin main
