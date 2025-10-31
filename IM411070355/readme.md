@@ -13,6 +13,10 @@ download python git db browser
 
 #Initialize Environment
 - in terminal
+- installing git
+- using 'git clone repository.git' to hard copy github repository
+- git clone https://github.com/zaoa3345678-arch/SSD_Midterm.git
+- rd .git (remove .git folder (hidden in the repository))
 . git --version
 . git config --global user.name 'Aaron name'
 . git config --global user.email 'a@gmail.com'
@@ -51,3 +55,21 @@ git commit -m 'message'
 - git remote add origin something_from_github.git
 - git branch -M main
 - git push -u origin main
+
+#github and git
+- git branch -M main
+- git push -u origin main
+- check status of the new github repository
+
+# in git: checkout
+- git checkout -b Branch_0583404
+- do some modification to integration.py
+- git add .
+- git commit -m 'modifying integration.py'
+- git push --set upstream origin Branch_0583404
+
+#in github
+- click compare & merge request
+- create pull reauest
+- merge request
+- confirm merge
